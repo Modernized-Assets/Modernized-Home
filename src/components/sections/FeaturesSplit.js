@@ -3,7 +3,9 @@ import classNames from 'classnames';
 import { SectionSplitProps } from '../../utils/SectionProps';
 import SectionHeader from './partials/SectionHeader';
 import Image from '../elements/Image';
-
+import ImageSplit from '../../assets/images/features-split-image-01.png'
+import ImageSplit2 from '../../assets/images/features-split-image-02.png'
+import ImageSplit3 from '../../assets/images/features-split-image-03.png'
 const propTypes = {
   ...SectionSplitProps.types
 }
@@ -83,7 +85,7 @@ const FeaturesSplit = ({
                 )}
                 data-reveal-container=".split-item">
                 <Image
-                  src={require('./../../assets/images/features-split-image-01.png')}
+                  src={ImageSplit}
                   alt="Features split 01"
                   width={528}
                   height={396} />
@@ -109,7 +111,7 @@ const FeaturesSplit = ({
                 )}
                 data-reveal-container=".split-item">
                 <Image
-                  src={require('./../../assets/images/features-split-image-02.png')}
+                  src={ImageSplit2}
                   alt="Features split 02"
                   width={528}
                   height={396} />
@@ -135,7 +137,7 @@ const FeaturesSplit = ({
                 )}
                 data-reveal-container=".split-item">
                 <Image
-                  src={require('./../../assets/images/features-split-image-03.png')}
+                  src={ImageSplit3}
                   alt="Features split 03"
                   width={528}
                   height={396} />
