@@ -66,14 +66,14 @@ const Hero = ({
             </h1>
             <div className="container-xs">
               <p className="m-0 mb-32 reveal-from-bottom" data-reveal-delay="400">
-                Our landing page template works on all devices, so you only have to set it up once, and get beautiful results forever.
+                A tech company that focuses on delivery of the best website copywriting, design and development, graphic design, and digital marketing. We cater to your business needs.
                 </p>
               <div className="reveal-from-bottom" data-reveal-delay="600">
                 <ButtonGroup>
                   <Button tag="a" color="primary" wideMobile href="https://cruip.com/">
                     Get started
                     </Button>
-                  <Button tag="a" color="dark" wideMobile href="https://github.com/cruip/open-react-template/">
+                  <Button tag="a" target="_blank" color="dark" wideMobile href="https://github.com/Modernized-Assets">
                     View on Github
                     </Button>
                 </ButtonGroup>
